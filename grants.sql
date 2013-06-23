@@ -1,0 +1,8 @@
+CREATE USER aquser IDENTIFIED BY aquser
+/
+GRANT CONNECT, RESOURCE, AQ_ADMINISTRATOR_ROLE TO aquser
+/
+GRANT EXECUTE ON dbms_aq TO aquser
+/
+GRANT EXECUTE ON dbms_aqadm to aquser
+/ 
